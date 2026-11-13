@@ -6,10 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Adsaya - Front-End Developer and UI/UX Designer Portfolio">
-    <meta name="author" content="Adsaya">
+    <title>Adsaya A.R | Front-End Developer & UI/UX Designer</title>
 
-    <title>Adsaya | Front-End Developer & UI/UX Designer</title>
+    <meta name="description" content="Adsaya A.R - Front-End Developer and UI/UX Designer Portfolio">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
@@ -17,19 +16,26 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- AOS Animation -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
+    <!-- =================================
+         HEADER / NAVBAR
+    ================================== -->
+
     <header class="header">
+
         <nav class="navbar">
 
             <a href="#home" class="logo">
@@ -37,12 +43,19 @@
             </a>
 
             <ul class="nav-links" id="navLinks">
+
                 <li><a href="#home" class="active">Home</a></li>
+
                 <li><a href="#about">About</a></li>
+
                 <li><a href="#skills">Skills</a></li>
+
                 <li><a href="#education">Education</a></li>
+
                 <li><a href="#projects">Projects</a></li>
+
                 <li><a href="#contact">Contact</a></li>
+
             </ul>
 
             <a href="#contact" class="nav-contact">
@@ -50,31 +63,56 @@
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
 
-            <button class="menu-btn" id="menuBtn"
-                aria-label="Toggle navigation"
-                aria-expanded="false">
+            <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
 
         </nav>
+
     </header>
 
 
-    <!-- HOME SECTION -->
+    <!-- =================================
+         HOME SECTION
+    ================================== -->
+
     <section class="home" id="home">
 
+        <!-- Background Decorations -->
+
+        <span class="hero-glow hero-glow-one"></span>
+        <span class="hero-glow hero-glow-two"></span>
+
+        <span class="hero-dot hero-dot-one"></span>
+        <span class="hero-dot hero-dot-two"></span>
+        <span class="hero-dot hero-dot-three"></span>
+        <span class="hero-dot hero-dot-four"></span>
+
+
         <div class="home-container">
+
+            <!-- LEFT CONTENT -->
 
             <div class="home-content" data-aos="fade-right">
 
                 <div class="available">
+
                     <span class="available-dot"></span>
+
                     Welcome to my portfolio
+
                 </div>
 
-                <p class="home-small">HELLO, I'M</p>
 
-                <h1>ADSAYA<span>.</span></h1>
+                <p class="home-small">
+                    HELLO, I'M
+                </p>
+
+
+                <h1>
+                    ADSAYA<span>.</span>
+                </h1>
+
 
                 <h2>
                     Front-End Developer
@@ -82,182 +120,281 @@
                     <span>& UI/UX Designer</span>
                 </h2>
 
+
                 <p class="home-description">
+
                     I create modern, responsive and user-friendly
                     websites with creative designs and clean code.
                     I enjoy transforming ideas into meaningful
                     digital experiences.
+
                 </p>
+
+
+                <!-- BUTTONS -->
 
                 <div class="home-buttons">
 
                     <a href="#projects" class="primary-btn">
+
                         Explore My Work
+
                         <i class="fa-solid fa-arrow-right"></i>
+
                     </a>
 
-                    <a href="../asserts/ADSAYA A R.pdf"
-                        download="Adsaya_Resume.pdf"
-                        class="secondary-btn">
+
+                    <!-- DOWNLOAD RESUME -->
+
+                    <a href="./assets/ADSAYA A R.pdf"
+                       download="Adsaya_AR_Resume.pdf"
+                       class="secondary-btn">
+
                         <i class="fa-solid fa-download"></i>
+
                         Download CV
+
                     </a>
 
                 </div>
 
+
+                <!-- SOCIAL MEDIA -->
+
                 <div class="home-social">
+
                     <span>Follow Me</span>
 
-                    <a href="https://github.com/adsayashyam-gif/"
-                        target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub">
+
+                    <a href="https://github.com/"
+                       target="_blank"
+                       aria-label="GitHub">
+
                         <i class="fa-brands fa-github"></i>
+
                     </a>
 
-                    <a href="https://www.linkedin.com/in/adsaya-a-r-038863449/"
-                        target="_blank" rel="noopener noreferrer"
-                        aria-label="LinkedIn">
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       aria-label="LinkedIn">
+
                         <i class="fa-brands fa-linkedin-in"></i>
+
                     </a>
 
-                    <a href="mailto:adsayashyam@gmail.com"
-                        aria-label="Email">
+
+                    <a href="mailto:adsaya2621@gmail.com"
+                       aria-label="Email">
+
                         <i class="fa-regular fa-envelope"></i>
+
                     </a>
+
                 </div>
 
             </div>
+
+
+            <!-- RIGHT IMAGE -->
 
             <div class="home-image" data-aos="fade-left">
 
-                <!-- <div class="image-circle">
-                    <img src="./asserts/ff5cf481-6623-42ba-83f9-2469a13059c8-removebg-preview.png"
-                        alt="Adsaya - Developer and Designer"
-                        class="profile-image">
+                <div class="image-circle">
+
+                    <!-- <img src="./assets/img.png"
+                         alt="Adsaya Profile"
+                         class="profile-image">
+
                 </div> -->
 
+
+                <!-- DEVELOPMENT CARD -->
+
                 <div class="floating-card card-one">
+
                     <i class="fa-solid fa-code"></i>
+
                     <div>
+
                         <h4>Development</h4>
+
                         <p>Creative Coding</p>
+
                     </div>
+
                 </div>
 
+
+                <!-- DESIGN CARD -->
+
                 <div class="floating-card card-two">
+
                     <i class="fa-brands fa-figma"></i>
+
                     <div>
+
                         <h4>UI/UX Design</h4>
+
                         <p>Creative Thinking</p>
+
                     </div>
+
                 </div>
 
             </div>
 
-        </div>
-
-        <div class="home-bottom">
-            <a href="#about">
-                <i class="fa-solid fa-arrow-down"></i>
-                Scroll to explore
-            </a>
         </div>
 
     </section>
 
 
-    <!-- ABOUT SECTION -->
+
+    <!-- =================================
+         ABOUT SECTION
+    ================================== -->
+
     <section class="about section" id="about">
 
         <div class="section-heading" data-aos="fade-up">
+
             <p class="section-subtitle">GET TO KNOW ME</p>
+
             <h2>About <span>Me</span></h2>
+
             <p class="section-description">
                 A little introduction about myself and my journey.
             </p>
+
         </div>
 
+
         <div class="about-container">
+
+            <!-- ABOUT IMAGE -->
 
             <div class="about-image" data-aos="fade-right">
 
                 <div class="about-image-box">
+
                     <img src="./asserts/ff5cf481-6623-42ba-83f9-2469a13059c8-removebg-preview.png"
-                        alt="Adsaya profile photo">
+                         alt="About Adsaya">
+
                 </div>
 
+
                 <div class="about-experience">
+
                     <i class="fa-solid fa-laptop-code"></i>
-                    <span>Design & Development</span>
+
+                    <div>
+                        <h4>Creative Developer</h4>
+                        <span>Always Learning</span>
+                    </div>
+
                 </div>
 
             </div>
 
+
+            <!-- ABOUT CONTENT -->
+
             <div class="about-content" data-aos="fade-left">
 
                 <h3>
-                    Passionate about
-                    <span>Design & Technology</span>
+                    Hello! I'm <span>Adsaya A.R</span>
                 </h3>
 
-                <p>
-                    I'm Adsaya, a passionate aspiring Front-End Developer
-                    and UI/UX Designer who enjoys creating attractive,
-                    responsive and user-friendly digital experiences.
-                </p>
 
                 <p>
-                    I have hands-on experience with HTML, CSS,
-                    JavaScript and React for web development.
-                    I also enjoy designing interfaces and creating
-                    visual concepts using Figma.
+
+                    I'm an aspiring Full Stack Developer and
+                    UI/UX Designer with a passion for creating
+                    beautiful and user-friendly digital experiences.
+
                 </p>
 
+
                 <p>
-                    I continuously explore new technologies,
-                    improve my creative skills and work on personal
-                    projects to grow as a developer and designer.
+
+                    I completed my B.Sc Chemistry degree and
+                    developed an interest in web development.
+                    I have hands-on experience in HTML, CSS,
+                    JavaScript, React.js and Python.
+
                 </p>
+
+
+                <p>
+
+                    I enjoy learning new technologies,
+                    creating creative designs and building
+                    responsive websites that provide a great
+                    user experience.
+
+                </p>
+
+
+                <!-- PERSONAL DETAILS -->
 
                 <div class="about-details">
 
                     <div class="detail-item">
+
                         <i class="fa-solid fa-user"></i>
+
                         <div>
                             <span>Name</span>
-                            <h4>Adsaya</h4>
+                            <h4>Adsaya A.R</h4>
                         </div>
+
                     </div>
 
+
                     <div class="detail-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <span>Location</span>
+                            <h4>Nagercoil, Tamil Nadu</h4>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-item">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                        <div>
+                            <span>Degree</span>
+                            <h4>B.Sc Chemistry</h4>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-item">
+
                         <i class="fa-solid fa-envelope"></i>
+
                         <div>
                             <span>Email</span>
-                            <h4>adsayashyam@gmail.com</h4>
+                            <h4>adsaya2621@gmail.com</h4>
                         </div>
-                    </div>
 
-                    <div class="detail-item">
-                        <i class="fa-solid fa-code"></i>
-                        <div>
-                            <span>Specialization</span>
-                            <h4>Front-End Development</h4>
-                        </div>
-                    </div>
-
-                    <div class="detail-item">
-                        <i class="fa-solid fa-palette"></i>
-                        <div>
-                            <span>Interest</span>
-                            <h4>UI/UX Design</h4>
-                        </div>
                     </div>
 
                 </div>
 
+
                 <a href="#contact" class="primary-btn">
-                    Contact Me
+
+                    Let's Connect
+
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
@@ -267,162 +404,325 @@
     </section>
 
 
-    <!-- SKILLS SECTION -->
+
+    <!-- =================================
+         SKILLS SECTION
+    ================================== -->
+
     <section class="skills section" id="skills">
 
         <div class="section-heading" data-aos="fade-up">
+
             <p class="section-subtitle">MY EXPERTISE</p>
+
             <h2>My <span>Skills</span></h2>
+
             <p class="section-description">
-                Technologies and creative tools I use to bring ideas to life.
+                Technologies and tools I use to create digital experiences.
             </p>
+
         </div>
+
 
         <div class="skills-container">
 
+
             <!-- FRONTEND -->
+
             <div class="skill-category" data-aos="fade-up">
 
                 <div class="category-heading">
+
                     <i class="fa-solid fa-code"></i>
+
                     <h3>Frontend Development</h3>
+
                 </div>
+
 
                 <div class="skill-grid">
 
                     <div class="skill-card">
+
                         <i class="fa-brands fa-html5 html-icon"></i>
+
                         <h4>HTML5</h4>
+
                         <p>Web Structure</p>
+
                     </div>
 
+
                     <div class="skill-card">
+
                         <i class="fa-brands fa-css3-alt css-icon"></i>
+
                         <h4>CSS3</h4>
-                        <p>Styling & Layout</p>
+
+                        <p>Styling</p>
+
                     </div>
 
+
                     <div class="skill-card">
+
                         <i class="fa-brands fa-js js-icon"></i>
+
                         <h4>JavaScript</h4>
-                        <p>Interactive Websites</p>
+
+                        <p>Interactivity</p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-bootstrap bootstrap-icon"></i>
-                        <h4>Bootstrap</h4>
-                        <p>Responsive Design</p>
-                    </div>
 
                     <div class="skill-card">
+
                         <i class="fa-brands fa-react react-icon"></i>
+
                         <h4>React.js</h4>
-                        <p>UI Development</p>
+
+                        <p>Frontend Library</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-bootstrap bootstrap-icon"></i>
+
+                        <h4>Bootstrap</h4>
+
+                        <p>Responsive UI</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-mobile-screen-button design-icon"></i>
+
+                        <h4>Responsive</h4>
+
+                        <p>Mobile Design</p>
+
                     </div>
 
                 </div>
+
             </div>
+
 
 
             <!-- BACKEND -->
+
             <div class="skill-category" data-aos="fade-up">
 
                 <div class="category-heading">
+
                     <i class="fa-solid fa-server"></i>
-                    <h3>Backend & Database</h3>
+
+                    <h3>Backend Development</h3>
+
                 </div>
+
 
                 <div class="skill-grid">
 
                     <div class="skill-card">
+
                         <i class="fa-brands fa-python python-icon"></i>
+
                         <h4>Python</h4>
+
                         <p>Programming</p>
+
                     </div>
 
+
                     <div class="skill-card">
-                        <i class="fa-solid fa-layer-group django-icon"></i>
+
+                        <i class="fa-solid fa-server django-icon"></i>
+
                         <h4>Django</h4>
+
                         <p>Backend Framework</p>
+
                     </div>
 
+
                     <div class="skill-card">
+
                         <i class="fa-solid fa-database database-icon"></i>
+
                         <h4>MySQL</h4>
+
                         <p>Database</p>
+
                     </div>
 
+
                     <div class="skill-card">
-                        <i class="fa-solid fa-database database-icon"></i>
-                        <h4>SQLite</h4>
+
+                        <i class="fa-solid fa-leaf database-icon"></i>
+
+                        <h4>MongoDB</h4>
+
                         <p>Database</p>
+
                     </div>
 
                 </div>
+
             </div>
 
 
-            <!-- DESIGN -->
+
+            <!-- UI UX DESIGN -->
+
             <div class="skill-category" data-aos="fade-up">
 
                 <div class="category-heading">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <h3>UI/UX & Design Tools</h3>
+
+                    <i class="fa-brands fa-figma"></i>
+
+                    <h3>UI/UX & Graphic Design</h3>
+
                 </div>
+
 
                 <div class="skill-grid">
 
                     <div class="skill-card">
+
                         <i class="fa-brands fa-figma figma-icon"></i>
+
                         <h4>Figma</h4>
+
                         <p>UI/UX Design</p>
+
                     </div>
 
+
                     <div class="skill-card">
-                        <i class="fa-solid fa-vector-square design-icon"></i>
+
+                        <i class="fa-solid fa-pen-ruler design-icon"></i>
+
                         <h4>Wireframing</h4>
-                        <p>Layout Planning</p>
+
+                        <p>Design Planning</p>
+
                     </div>
 
+
                     <div class="skill-card">
+
                         <i class="fa-solid fa-object-group design-icon"></i>
+
                         <h4>Prototyping</h4>
-                        <p>Interactive Design</p>
+
+                        <p>UI Prototype</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-image design-icon"></i>
+
+                        <h4>Photoshop</h4>
+
+                        <p>Image Editing</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-pen-nib design-icon"></i>
+
+                        <h4>Illustrator</h4>
+
+                        <p>Graphic Design</p>
+
                     </div>
 
                 </div>
+
             </div>
 
 
-            <!-- DEVELOPMENT TOOLS -->
+
+            <!-- TOOLS -->
+
             <div class="skill-category" data-aos="fade-up">
 
                 <div class="category-heading">
+
                     <i class="fa-solid fa-toolbox"></i>
-                    <h3>Development Tools</h3>
+
+                    <h3>Tools & Deployment</h3>
+
                 </div>
+
 
                 <div class="skill-grid">
 
                     <div class="skill-card">
-                        <i class="fa-solid fa-code vscode-icon"></i>
-                        <h4>VS Code</h4>
-                        <p>Code Editor</p>
-                    </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-github github-icon"></i>
-                        <h4>GitHub</h4>
+                        <i class="fa-brands fa-git-alt" style="color:#f05032"></i>
+
+                        <h4>Git</h4>
+
                         <p>Version Control</p>
+
                     </div>
 
+
                     <div class="skill-card">
+
+                        <i class="fa-brands fa-github github-icon"></i>
+
+                        <h4>GitHub</h4>
+
+                        <p>Code Hosting</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
                         <i class="fa-solid fa-cloud cloud-icon"></i>
+
                         <h4>Vercel</h4>
+
                         <p>Deployment</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-code vscode-icon"></i>
+
+                        <h4>VS Code</h4>
+
+                        <p>Code Editor</p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-paper-plane design-icon"></i>
+
+                        <h4>Thunder Client</h4>
+
+                        <p>API Testing</p>
+
                     </div>
 
                 </div>
+
             </div>
 
         </div>
@@ -430,64 +730,152 @@
     </section>
 
 
-    <!-- EDUCATION SECTION -->
+
+    <!-- =================================
+         EDUCATION SECTION
+    ================================== -->
+
     <section class="education section" id="education">
 
         <div class="section-heading" data-aos="fade-up">
-            <p class="section-subtitle">MY BACKGROUND</p>
-            <h2>Education & <span>Learning</span></h2>
+
+            <p class="section-subtitle">MY ACADEMIC BACKGROUND</p>
+
+            <h2>My <span>Education</span></h2>
+
             <p class="section-description">
                 My educational journey and professional training.
             </p>
+
         </div>
+
 
         <div class="education-container">
 
-            <div class="education-item" data-aos="fade-up">
-                <div class="education-icon">
-                    <i class="fa-solid fa-school"></i>
-                </div>
 
-                <div class="education-card">
-                    <span class="education-year">2020 – 2022</span>
-                    <h3>Higher Secondary Education</h3>
-                    <h4>Evan Matric Hr. Sec. School</h4>
-                    <p>
-                        Completed higher secondary education
-                        with a foundation in academic studies.
-                    </p>
-                </div>
-            </div>
+            <!-- DEGREE -->
 
             <div class="education-item" data-aos="fade-up">
+
                 <div class="education-icon">
+
                     <i class="fa-solid fa-graduation-cap"></i>
+
                 </div>
 
+
                 <div class="education-card">
-                    <span class="education-year">2022 – 2025</span>
-                    <h3>B.Sc. Chemistry</h3>
-                    <h4>Holy Cross College (Autonomous)</h4>
+
+                    <span class="education-year">
+                        2022 – 2025
+                    </span>
+
+                    <h3>B.Sc Chemistry</h3>
+
+                    <h4>Holy Cross Autonomous College</h4>
+
                     <p>
-                        Completed Bachelor of Science in Chemistry.
+                        Nagercoil, Tamil Nadu.
+                        Completed undergraduate studies in Chemistry.
                     </p>
+
                 </div>
+
             </div>
 
+
+
+            <!-- HSC -->
+
             <div class="education-item" data-aos="fade-up">
+
                 <div class="education-icon">
-                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <i class="fa-solid fa-school"></i>
+
                 </div>
 
+
                 <div class="education-card">
-                    <span class="education-year">September 2025 – April 2026</span>
-                    <h3>Full Stack Development Training</h3>
-                    <h4>Alo Hub</h4>
+
+                    <span class="education-year">
+                        2022
+                    </span>
+
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+
+                    <h4>Evan Matric Hr. Sec School</h4>
+
                     <p>
-                        Learned frontend development, web technologies
-                        and practical UI/UX design concepts.
+                        Nagercoil, Tamil Nadu.
                     </p>
+
                 </div>
+
+            </div>
+
+
+
+            <!-- TRAINING -->
+
+            <div class="education-item" data-aos="fade-up">
+
+                <div class="education-icon">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                </div>
+
+
+                <div class="education-card">
+
+                    <span class="education-year">
+                        Professional Training
+                    </span>
+
+                    <h3>Full Stack Development</h3>
+
+                    <h4>Alo Hub</h4>
+
+                    <p>
+                        Practical training in frontend development,
+                        backend development and database technologies.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- UI UX -->
+
+            <div class="education-item" data-aos="fade-up">
+
+                <div class="education-icon">
+
+                    <i class="fa-brands fa-figma"></i>
+
+                </div>
+
+
+                <div class="education-card">
+
+                    <span class="education-year">
+                        Professional Training
+                    </span>
+
+                    <h3>UI/UX Design & Wireframing</h3>
+
+                    <h4>Alo Hub</h4>
+
+                    <p>
+                        Training in UI design, wireframing,
+                        prototyping and user-centered design.
+                    </p>
+
+                </div>
+
             </div>
 
         </div>
@@ -495,142 +883,200 @@
     </section>
 
 
-    <!-- PROJECTS SECTION -->
+
+    <!-- =================================
+         PROJECTS SECTION
+    ================================== -->
+
     <section class="projects section" id="projects">
 
         <div class="section-heading" data-aos="fade-up">
+
             <p class="section-subtitle">MY RECENT WORK</p>
-            <h2>Featured <span>Projects</span></h2>
+
+            <h2>My <span>Projects</span></h2>
+
             <p class="section-description">
-                Some of my personal and practical web development projects.
+                Some of my creative and development projects.
             </p>
+
         </div>
+
 
         <div class="project-container">
 
+
             <!-- PROJECT 1 -->
+
             <div class="project-card" data-aos="fade-up">
 
                 <div class="project-preview project-pink">
-                    <i class="fa-solid fa-shirt"></i>
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
                     <span>01</span>
+
                 </div>
 
+
                 <div class="project-info">
-                    <div class="project-type">WEB DEVELOPMENT</div>
 
-                    <h3>JC Fashion - Clothing Website</h3>
-
-                    <p>
-                        A responsive fashion boutique website featuring
-                        a modern product presentation and attractive
-                        user interface.
+                    <p class="project-type">
+                        WEB DEVELOPMENT
                     </p>
 
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+
+                        Developed a responsive personal portfolio
+                        website to showcase my profile, technical
+                        skills, educational background and projects.
+
+                    </p>
+
+
                     <div class="project-tech">
+
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
-                        <span>React</span>
+
                     </div>
+
 
                     <div class="project-links">
-                        <a href="https://jc-fashion.vercel.app/"
-                            target="_blank" rel="noopener noreferrer">
-                            Live Demo
+
+                        <a href="https://adsayaar-portfolio.vercel.app/"
+                           target="_blank">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            Live Demo
+
                         </a>
 
-                        <a href="https://github.com/adsayashyam-gif/"
-                            target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
                     </div>
+
                 </div>
+
             </div>
+
 
 
             <!-- PROJECT 2 -->
+
             <div class="project-card" data-aos="fade-up">
 
                 <div class="project-preview project-purple">
-                    <i class="fa-solid fa-couch"></i>
+
+                    <i class="fa-solid fa-shirt"></i>
+
                     <span>02</span>
+
                 </div>
+
 
                 <div class="project-info">
-                    <div class="project-type">WEB DESIGN</div>
 
-                    <h3>Interior Design Website</h3>
-
-                    <p>
-                        An interior design website created with
-                        an elegant layout, organized content and
-                        responsive styling.
+                    <p class="project-type">
+                        E-COMMERCE WEBSITE
                     </p>
 
+                    <h3>Clothing E-Commerce Website</h3>
+
+                    <p>
+
+                        Developed a responsive clothing website
+                        with product listings, category navigation
+                        and interactive UI components.
+
+                    </p>
+
+
                     <div class="project-tech">
+
                         <span>HTML</span>
                         <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+
                     </div>
+
 
                     <div class="project-links">
-                        <a href="https://interior-psi-woad.vercel.app/"
-                            target="_blank" rel="noopener noreferrer">
-                            Live Demo
+
+                        <a href="https://clothing-website-jet-zeta.vercel.app/"
+                           target="_blank">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            Live Demo
+
                         </a>
 
-                        <a href="https://github.com/adsayashyam-gif/"
-                            target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
                     </div>
+
                 </div>
+
             </div>
+
 
 
             <!-- PROJECT 3 -->
+
             <div class="project-card" data-aos="fade-up">
 
                 <div class="project-preview project-blue">
-                    <i class="fa-solid fa-gift"></i>
+
+                    <i class="fa-solid fa-gem"></i>
+
                     <span>03</span>
+
                 </div>
+
 
                 <div class="project-info">
-                    <div class="project-type">CREATIVE WEB DEVELOPMENT</div>
 
-                    <h3>Birthday Surprise Website</h3>
-
-                    <p>
-                        A creative birthday surprise website
-                        designed to deliver a fun and memorable
-                        interactive experience.
+                    <p class="project-type">
+                        REACT DEVELOPMENT
                     </p>
 
+                    <h3>JC Fashion E-Commerce</h3>
+
+                    <p>
+
+                        Developed a responsive fashion e-commerce
+                        website with product browsing, category
+                        navigation, color selection, cart and wishlist.
+
+                    </p>
+
+
                     <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
+
+                        <span>React.js</span>
                         <span>JavaScript</span>
+                        <span>CSS</span>
+
                     </div>
+
 
                     <div class="project-links">
-                        <a href="https://birrthday-suprise.vercel.app/"
-                            target="_blank" rel="noopener noreferrer">
-                            Live Demo
+
+                        <a href="https://jc-fashion.vercel.app/"
+                           target="_blank">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            Live Demo
+
                         </a>
 
-                        <a href="https://github.com/adsayashyam-gif/"
-                            target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-github"></i>
-                            GitHub
-                        </a>
                     </div>
+
                 </div>
+
             </div>
 
         </div>
@@ -638,164 +1084,240 @@
     </section>
 
 
-    <!-- CONTACT SECTION -->
+
+    <!-- =================================
+         CONTACT SECTION
+    ================================== -->
+
     <section class="contact section" id="contact">
 
         <div class="section-heading" data-aos="fade-up">
-            <p class="section-subtitle">LET'S CONNECT</p>
-            <h2>Get In <span>Touch</span></h2>
+
+            <p class="section-subtitle">GET IN TOUCH</p>
+
+            <h2>Contact <span>Me</span></h2>
+
             <p class="section-description">
-                Have a project or opportunity in mind?
-                I'd love to hear from you.
+                Have a project or opportunity? Let's connect!
             </p>
+
         </div>
+
 
         <div class="contact-container">
 
+
+            <!-- CONTACT INFORMATION -->
+
             <div class="contact-content" data-aos="fade-right">
 
-                <h3>Let's work together!</h3>
+                <h3>Let's Work Together</h3>
 
                 <p>
-                    I'm interested in Front-End Development,
-                    UI/UX Design and creative web projects.
-                    Feel free to reach out.
+
+                    I'm always interested in new opportunities,
+                    creative projects and collaborations.
+                    Feel free to contact me.
+
                 </p>
 
+
                 <div class="contact-detail">
+
                     <div class="contact-icon">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>Email Address</span>
+
+                        <a href="mailto:adsaya2621@gmail.com">
+                            adsaya2621@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+
                         <i class="fa-solid fa-phone"></i>
+
                     </div>
+
                     <div>
-                        <span>Phone</span>
-                        <a href="tel:8148428778">+91 8148428778</a>
+
+                        <span>Phone Number</span>
+
+                        <a href="tel:8148428778">
+                            8148428778
+                        </a>
+
                     </div>
+
                 </div>
 
-                <div class="contact-detail">
-                    <div class="contact-icon">
-                        <i class="fa-regular fa-envelope"></i>
-                    </div>
-                    <div>
-                        <span>Email</span>
-                        <a href="mailto:adsayashyam@gmail.com">
-                            adsayashyam@gmail.com
-                        </a>
-                    </div>
-                </div>
 
                 <div class="contact-detail">
-                    <div class="contact-icon">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-                    <div>
-                        <span>LinkedIn</span>
-                        <a href="https://www.linkedin.com/in/adsaya-a-r-038863449/"
-                            target="_blank" rel="noopener noreferrer">
-                            View LinkedIn Profile
-                        </a>
-                    </div>
-                </div>
 
-                <div class="contact-detail">
                     <div class="contact-icon">
-                        <i class="fa-brands fa-github"></i>
+
+                        <i class="fa-solid fa-location-dot"></i>
+
                     </div>
+
                     <div>
-                        <span>GitHub</span>
-                        <a href="https://github.com/adsayashyam-gif/"
-                            target="_blank" rel="noopener noreferrer">
-                            View GitHub Profile
+
+                        <span>Location</span>
+
+                        <a href="#contact">
+                            Nagercoil, Tamil Nadu
                         </a>
+
                     </div>
+
                 </div>
 
             </div>
+
 
 
             <!-- CONTACT FORM -->
-            <div class="contact-form" data-aos="fade-left">
+
+            <form class="contact-form"
+                  id="contactForm"
+                  data-aos="fade-left">
 
                 <h3>Send Me a Message</h3>
 
-                <form id="contactForm">
 
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name"
-                            placeholder="Enter your name" required>
-                    </div>
+                <div class="form-group">
 
-                    <div class="form-group">
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email"
-                            placeholder="Enter your email" required>
-                    </div>
+                    <label for="name">Your Name</label>
 
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject"
-                            placeholder="Enter subject" required>
-                    </div>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Enter your name"
+                           required>
 
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" rows="5"
-                            placeholder="Write your message..."
-                            required></textarea>
-                    </div>
+                </div>
 
-                    <button type="submit" class="primary-btn">
-                        Send Message
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
 
-                </form>
+                <div class="form-group">
 
-            </div>
+                    <label for="email">Your Email</label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">Subject</label>
+
+                    <input type="text"
+                           id="subject"
+                           name="subject"
+                           placeholder="Enter subject"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">Your Message</label>
+
+                    <textarea id="message"
+                              name="message"
+                              placeholder="Write your message..."
+                              required></textarea>
+
+                </div>
+
+
+                <button type="submit" class="primary-btn">
+
+                    Send Message
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+            </form>
 
         </div>
 
     </section>
 
 
-    <!-- FOOTER -->
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
     <footer class="footer">
 
         <div class="footer-container">
+
 
             <a href="#home" class="logo">
                 ADSAYA<span>.</span>
             </a>
 
-            <p>Designing ideas. Developing experiences.</p>
+
+            <p>
+                Creating beautiful digital experiences with creativity and code.
+            </p>
+
 
             <div class="footer-social">
 
-                <a href="https://github.com/adsayashyam-gif/"
-                    target="_blank" rel="noopener noreferrer"
-                    aria-label="GitHub">
+                <a href="https://github.com/" target="_blank"
+                   aria-label="GitHub">
+
                     <i class="fa-brands fa-github"></i>
+
                 </a>
 
-                <a href="https://www.linkedin.com/in/adsaya-a-r-038863449/"
-                    target="_blank" rel="noopener noreferrer"
-                    aria-label="LinkedIn">
+
+                <a href="https://www.linkedin.com/" target="_blank"
+                   aria-label="LinkedIn">
+
                     <i class="fa-brands fa-linkedin-in"></i>
+
                 </a>
 
-                <a href="mailto:adsayashyam@gmail.com"
-                    aria-label="Email">
+
+                <a href="mailto:adsaya2621@gmail.com"
+                   aria-label="Email">
+
                     <i class="fa-regular fa-envelope"></i>
+
                 </a>
 
             </div>
 
+
             <div class="footer-line"></div>
 
+
             <p class="copyright">
-                © <span id="currentYear"></span> Adsaya.
-                All Rights Reserved.
+
+                © 2026 Adsaya A.R. All Rights Reserved.
+
             </p>
 
         </div>
@@ -803,137 +1325,221 @@
     </footer>
 
 
-    <!-- BACK TO TOP -->
+
+    <!-- =================================
+         BACK TO TOP BUTTON
+    ================================== -->
+
     <a href="#home" class="back-to-top" id="backToTop"
-        aria-label="Back to top">
+       aria-label="Back to top">
+
         <i class="fa-solid fa-arrow-up"></i>
+
     </a>
 
 
-    <!-- JAVASCRIPT -->
+
+    <!-- =================================
+         JAVASCRIPT
+    ================================== -->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
 
-        // AOS INITIALIZATION
+        // INITIALIZE AOS ANIMATION
+
         AOS.init({
             duration: 900,
             once: true,
-            offset: 100
+            offset: 80
         });
 
 
+
         // MOBILE NAVIGATION
+
         const menuBtn = document.getElementById("menuBtn");
+
         const navLinks = document.getElementById("navLinks");
+
 
         menuBtn.addEventListener("click", function () {
 
             navLinks.classList.toggle("show");
 
-            const isOpen = navLinks.classList.contains("show");
+            const icon = menuBtn.querySelector("i");
 
-            menuBtn.setAttribute("aria-expanded", isOpen);
+            if (navLinks.classList.contains("show")) {
 
-            menuBtn.innerHTML = isOpen
-                ? '<i class="fa-solid fa-xmark"></i>'
-                : '<i class="fa-solid fa-bars"></i>';
+                icon.classList.remove("fa-bars");
 
-        });
+                icon.classList.add("fa-xmark");
 
-
-        // CLOSE MENU AFTER CLICK
-        document.querySelectorAll(".nav-links a").forEach(link => {
-
-            link.addEventListener("click", function () {
-
-                navLinks.classList.remove("show");
-
-                menuBtn.setAttribute("aria-expanded", "false");
-
-                menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
-
-            });
-
-        });
-
-
-        // ACTIVE NAVIGATION
-        const sections = document.querySelectorAll("section[id]");
-        const navigationLinks = document.querySelectorAll(".nav-links a");
-
-        window.addEventListener("scroll", function () {
-
-            let current = "";
-
-            sections.forEach(section => {
-
-                const sectionTop = section.offsetTop - 150;
-
-                if (window.scrollY >= sectionTop) {
-                    current = section.getAttribute("id");
-                }
-
-            });
-
-            navigationLinks.forEach(link => {
-
-                link.classList.remove("active");
-
-                if (link.getAttribute("href") === "#" + current) {
-                    link.classList.add("active");
-                }
-
-            });
-
-        });
-
-
-        // BACK TO TOP BUTTON
-        const backToTop = document.getElementById("backToTop");
-
-        window.addEventListener("scroll", function () {
-
-            if (window.scrollY > 400) {
-                backToTop.classList.add("show");
             } else {
-                backToTop.classList.remove("show");
+
+                icon.classList.remove("fa-xmark");
+
+                icon.classList.add("fa-bars");
+
             }
 
         });
 
 
-        // CURRENT YEAR
-        document.getElementById("currentYear").textContent =
-            new Date().getFullYear();
 
+        // CLOSE MENU AFTER CLICKING LINK
 
-        // CONTACT FORM - OPENS EMAIL APP
-        document.getElementById("contactForm")
-            .addEventListener("submit", function (event) {
+        document.querySelectorAll(".nav-links a").forEach(function (link) {
 
-                event.preventDefault();
+            link.addEventListener("click", function () {
 
-                const name = document.getElementById("name").value.trim();
-                const email = document.getElementById("email").value.trim();
-                const subject = document.getElementById("subject").value.trim();
-                const message = document.getElementById("message").value.trim();
+                navLinks.classList.remove("show");
 
-                const body =
-                    "Name: " + name +
-                    "\nEmail: " + email +
-                    "\n\nMessage:\n" + message;
+                menuBtn.querySelector("i").classList.remove("fa-xmark");
 
-                const mailtoLink =
-                    "mailto:adsayashyam@gmail.com" +
-                    "?subject=" + encodeURIComponent(subject) +
-                    "&body=" + encodeURIComponent(body);
-
-                window.location.href = mailtoLink;
+                menuBtn.querySelector("i").classList.add("fa-bars");
 
             });
+
+        });
+
+
+
+        // ACTIVE NAVIGATION LINK
+
+        const sections = document.querySelectorAll("section[id]");
+
+        const navItems = document.querySelectorAll(".nav-links a");
+
+
+        window.addEventListener("scroll", function () {
+
+            let current = "home";
+
+            sections.forEach(function (section) {
+
+                const sectionTop = section.offsetTop - 160;
+
+                if (window.scrollY >= sectionTop) {
+
+                    current = section.getAttribute("id");
+
+                }
+
+            });
+
+
+            navItems.forEach(function (link) {
+
+                link.classList.remove("active");
+
+                if (link.getAttribute("href") === "#" + current) {
+
+                    link.classList.add("active");
+
+                }
+
+            });
+
+        });
+
+
+
+        // BACK TO TOP BUTTON
+
+        const backToTop = document.getElementById("backToTop");
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY > 400) {
+
+                backToTop.classList.add("show");
+
+            } else {
+
+                backToTop.classList.remove("show");
+
+            }
+
+        });
+
+
+
+        // CONTACT FORM - OPEN EMAIL APP
+
+        const contactForm = document.getElementById("contactForm");
+
+
+        contactForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+
+            const name = document.getElementById("name").value;
+
+            const email = document.getElementById("email").value;
+
+            const subject = document.getElementById("subject").value;
+
+            const message = document.getElementById("message").value;
+
+
+            const mailSubject = encodeURIComponent(subject);
+
+            const mailBody = encodeURIComponent(
+
+                "Name: " + name +
+
+                "\nEmail: " + email +
+
+                "\n\nMessage:\n" + message
+
+            );
+
+
+            const mailURL =
+
+                "mailto:adsaya2621@gmail.com" +
+
+                "?subject=" + mailSubject +
+
+                "&body=" + mailBody;
+
+
+            window.location.href = mailURL;
+
+        });
+
+
+
+        // SMOOTH SCROLL
+
+        document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+
+            link.addEventListener("click", function (event) {
+
+                const target = document.querySelector(
+                    link.getAttribute("href")
+                );
+
+                if (target) {
+
+                    event.preventDefault();
+
+                    target.scrollIntoView({
+                        behavior: "smooth"
+                    });
+
+                }
+
+            });
+
+        });
 
     </script>
 
 </body>
+
 </html>
